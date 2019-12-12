@@ -168,7 +168,8 @@ body {
 
 .container_first_song li {
   text-align: center;
-  width: calc(100% / 6);
+  width: calc((100% / 6) - 5px);
+  padding: 0 5px;
 }
 
 
