@@ -134,7 +134,13 @@ a i.plus {
 }
 
 .main-nav-footer {
-  /* background-color: brown; */
+  background-color: brown;
+  padding: 15px;
+  font-size: 12px;
+}
+
+.main-nav-footer i {
+  margin-right: 7px;
 }
 
 /* main content */
