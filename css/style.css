@@ -213,7 +213,7 @@ a i.plus {
 
 .container_first_song {
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   flex-wrap: wrap;
 }
 
