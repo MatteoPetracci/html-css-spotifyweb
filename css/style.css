@@ -214,7 +214,7 @@ a i.plus {
 .main-content {
   width: calc(100% - 200px);
   height: 100%;
-  background-color: #222326;
+  background-color:  #141922;
   /* background-color: #503750; */
   overflow-y: scroll;
 }
@@ -314,7 +314,20 @@ a i.plus {
 .footer {
   width: 100%;
   height: 90px;
-  background-color: pink;
+  background-color: #222326;
+}
+
+.flex-item-1,
+.flex-item-2,
+.flex-item-3 {
+  background-color: red;
+  width: 100px;
+  height: 100px;
+}
+
+.container_footer {
+  display: flex;
+  justify-content: space-between;
 }
 
 /* sezione hover */
