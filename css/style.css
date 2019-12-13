@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+img {
+  min-width: 80%;
+}
+
 body {
   background-color: black;
 }
@@ -17,6 +21,22 @@ body {
 
 .text_uppercase {
   text-transform: uppercase;
+}
+
+.margin_top_20 {
+  margin-top: 20px;
+}
+
+.margin_left_5 {
+  margin-left: 20px;
+}
+
+.margin_top_30 {
+  margin-top: 30px;
+}
+
+.radius_50 {
+  border-radius: 50%;
 }
 
 /* Fixed */
@@ -155,8 +175,12 @@ body {
 .container_first_song {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
+.container_first_song li {
+  flex-basis: calc(100% / 6);
+}
 
 .container_first_song li img {
   width: 100%;
@@ -172,12 +196,26 @@ body {
   padding: 0 5px;
 }
 
+/* secondo container */
 
+.container_second_song {
+  justify-content: flex-start;
+}
 
+.container_first_song li {
+  flex-basis: 190px;
+}
 /* footer */
 
 .footer {
   width: 100%;
   height: 90px;
   background-color: pink;
+}
+
+@media screen and (max-width: 960px) {
+  .container_first_song li {
+    flex-wrap: wrap;
+    flex-basis: calc(100% / 2);
+  }
 }
