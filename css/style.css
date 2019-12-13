@@ -80,7 +80,7 @@ a {
 }
 
 .color_grey {
-  color: lightgrey;
+  color: grey;
 }
 
 .margin_left_9 {
@@ -250,6 +250,8 @@ a i.plus {
 
 .container_first_song li p {
   margin-top: 8px;
+  color: grey;
+  font-weight: 700;
 }
 
 .container_first_song li h2 {
@@ -259,6 +261,12 @@ a i.plus {
 .container_first_song {
   display: flex;
   flex-wrap: wrap;
+}
+
+
+
+.container_first_song ul li.opacity:hover {
+  display: block;
 }
 
 
