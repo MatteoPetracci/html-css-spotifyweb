@@ -63,6 +63,10 @@ a {
   color: lightgrey;
 }
 
+.margin_left_9 {
+  margin-left: 9px;
+}
+
 /* Flex */
 .main {
   display: flex;
@@ -200,6 +204,11 @@ a i.plus {
   margin-top: 90px;
 }
 
+.container_list ul li {
+  text-align: center;
+  position:relative;
+}
+
 .container_top_content {
   text-align: center;
 }
@@ -291,6 +300,9 @@ a i.plus {
   left: calc(50% - 11px);
 }
 
+.container_list ul li:hover a {
+  color: white;
+}
 
 
 /* sezione active */
@@ -303,13 +315,6 @@ a i.plus {
 
 
 
-ul {
-  list-style-type: none;
-}
-.container_list ul li {
-  text-align: center;
-  position:relative;
-}
 
 
 
