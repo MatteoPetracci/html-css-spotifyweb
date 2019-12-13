@@ -353,6 +353,19 @@ a i.plus {
   color: grey;
 }
 
+.bar {
+  height: 3px;
+  width: 400px;
+  border-radius: 5px;
+  background-color: grey;
+}
+
+.bar_2 {
+  height: 3px;
+  width: 125px;
+  border-radius: 5px;
+  background-color: grey;
+}
 
 /* sezione hover */
 
