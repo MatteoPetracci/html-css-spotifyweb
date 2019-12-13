@@ -3,6 +3,8 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <title>Spotify</title>
   </head>
@@ -13,19 +15,25 @@
       <main class="main">
         <section class="main-nav">
           <section class="main-nav-header">
-            <ul>
-              <li>link</li>
-              <li>link</li>
-              <li>link</li>
+            <img src="img/logo.svg" alt="">
+            <ul class="margin_top_20">
+              <li>
+                <a href="#"><i class="fas fa-home"></i>Home</a>
+              </li>
+              <li>
+                <a class="search" href="#"><i class="fas fa-search"></i>Cerca</a>
+              </li>
+              <li>
+                <a href="#"><i class="fas fa-book-open"></i>La tua libreria</a>
+              </li>
             </ul>
           </section>
-          <section>
-            <h2>PLAYLIST</h2>
-            <a href="">Crea Playlist</a>
+          <section class="padding_left_15">
+            <h2 class="margin_top_20 playlist">PLAYLIST</h2>
+            <a class="font_12" href="#"><i class="fas fa-plus-square plus"></i>Crea Playlist</a>
           </section>
-          <section class="main-nav-main">
-            <ul class="playlist">
-              <li>Nome Playlist</li>
+          <section class="main-nav-main padding_left_15">
+            <ul class="list_style list_play">
               <li>Nome Playlist</li>
               <li>Nome Playlist</li>
               <li>Nome Playlist</li>
@@ -35,9 +43,10 @@
               <li>Nome Playlist</li>
             </ul>
           </section>
-          <section class="main-nav-footer">
+          <section class="main-nav-footer padding_left_15">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit.
           </section>
+
         </section>
         <section class="main-content">
           <div class="call-to-action">
@@ -53,7 +62,8 @@
               <li><a class="text_uppercase" href="#">scopri</a></li>
             </ul>
           </div>
-          <h2 class="margin_top_20 margin_left_5">Recently played</h2>
+          <div class="margin_top_20 margin_left_5">
+          <h2 class="margin_top_20">Recently played</h2>
           <div>
             <ul class="container_first_song list_inline margin_top_20">
               <li>
@@ -89,7 +99,6 @@
             </ul>
           </div>
           <!-- container 2 -->
-          <div class="margin_top_20 margin_left_5">
             <h2>Creato per John Doe</h2>
             <p>Più ascolti, più accurati saranno i suggerimenti</p>
             <div>
