@@ -59,6 +59,10 @@ a {
   list-style: none;
 }
 
+.color_grey {
+  color: lightgrey;
+}
+
 /* Flex */
 .main {
   display: flex;
@@ -73,12 +77,11 @@ a {
   justify-content: space-between;
   width: 200px;
   height: 100%;
-  background: black;;
+  background: black;
 }
 
 .main-nav-header {
   background-color: black;
-  color: white;
 }
 
 .main-nav-header img {
@@ -88,7 +91,7 @@ a {
 }
 
 .main-nav-header i {
-  color: white;
+  /* color: white; */
   font-size: 20px;
   padding-left: 20px;
   padding-top: 8px;
@@ -96,7 +99,7 @@ a {
 }
 .main-nav-header li a {
   text-decoration: none;
-  color: white;
+  /* color: white; */
   font-size: 12px;
 }
 
@@ -126,15 +129,19 @@ a i.plus {
   margin-top: 15px;
 }
 
+.main-nav-header ul li a {
+  color: lightgrey;
+}
 
 .playlist {
   text-transform: uppercase;
   font-size: 12px;
   margin-bottom: 10px;
+  color: white;
 }
 
+/* footer nav  */
 .main-nav-footer {
-  background-color: brown;
   padding: 15px;
   font-size: 12px;
 }
@@ -143,6 +150,18 @@ a i.plus {
   margin-right: 7px;
 }
 
+.main-nav-footer i {
+  padding: 7px 7px 7px 0;
+}
+.main-nav-footer i.user {
+  font-size: 24px;
+  color: grey;
+}
+
+.main-nav-footer p {
+  font-weight: 700;
+  color: white;
+}
 /* main content */
 .call-to-action {
   position: fixed;
@@ -231,6 +250,35 @@ a i.plus {
   background-color: pink;
 }
 
+/* sezione hover */
+
+.main-nav-header ul li:hover a,
+.main-nav-header ul li:hover i {
+  color: white;
+}
+
+.create_playlist a:hover i,
+.create_playlist a:hover {
+  color: white;
+}
+
+.main-nav-main ul li:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.main-nav-footer a:hover {
+  color: white;
+}
+
+/* sezione active */
+
+.main-nav-header ul li:active,
+.main-nav-header ul li:focus {
+  border-left: 2px solid lightgreen;
+}
+
+/* media query */
 @media screen and (max-width: 576px) {
   .container_first_song li {
     flex-wrap: wrap;
