@@ -279,12 +279,42 @@ a i.plus {
   color: white;
 }
 
+/* sezione after */
+
+
+.container_list ul li:active:after {
+  content: '';
+  position: absolute;
+  border-bottom: 2px solid lightgreen;
+  width: 22px;
+  bottom: 30px;
+  left: calc(50% - 11px);
+}
+
+
+
 /* sezione active */
 
 .main-nav-header ul li:active,
 .main-nav-header ul li:focus {
   border-left: 2px solid lightgreen;
 }
+
+
+
+
+ul {
+  list-style-type: none;
+}
+.container_list ul li {
+  text-align: center;
+  position:relative;
+}
+
+
+
+
+
 
 /* media query */
 @media screen and (max-width: 576px) {
