@@ -290,6 +290,8 @@ a i.plus {
 
 .third_section p {
   margin-bottom: 25px;
+  color: grey;
+  font-weight: 700;
 }
 
 .third_section ul li h2 {
