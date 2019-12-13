@@ -19,6 +19,10 @@ a {
   color: white;
 }
 
+.bold {
+  font-weight: bold;
+}
+
 .font_12 {
   font-size: 12px;
 }
@@ -56,6 +60,10 @@ a {
 
 .margin_left_5 {
   margin-left: 20px;
+}
+
+.margin_left_20 {
+  margin-left: 10px;
 }
 
 .margin_top_30 {
@@ -99,7 +107,7 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 200px;
+  width: 210px;
   height: 100%;
   background: black;
 }
@@ -194,7 +202,7 @@ a i.plus {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  width: calc(100% - 200px);
+  width: calc(100% - 210px);
   height: 90px;
   padding: 5px;
   background-color: rgba(0, 0, 0, 0.5);
@@ -212,7 +220,7 @@ a i.plus {
 }
 
 .main-content {
-  width: calc(100% - 200px);
+  width: calc(100% - 210px);
   height: 100%;
   background-color:  #141922;
   /* background-color: #503750; */
@@ -320,15 +328,31 @@ a i.plus {
 .flex-item-1,
 .flex-item-2,
 .flex-item-3 {
-  background-color: red;
-  width: 100px;
-  height: 100px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .container_footer {
   display: flex;
   justify-content: space-between;
+  padding: 15px;
 }
+
+.container_footer img {
+  width: 61px;
+  height: 87%;
+}
+
+.footer ul li  {
+  vertical-align: middle;
+  padding: 0 5px;
+}
+
+.footer ul li i {
+  font-size: 14px;
+  color: grey;
+}
+
 
 /* sezione hover */
 
@@ -349,6 +373,11 @@ a i.plus {
 
 .main-nav-footer a:hover {
   color: white;
+}
+
+.footer ul li:hover i {
+  color: white;
+  cursor: pointer;
 }
 
 /* sezione after */
