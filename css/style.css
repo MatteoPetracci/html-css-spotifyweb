@@ -31,6 +31,10 @@ a {
   font-size: 9px;
 }
 
+.font_20 {
+  font-size: 20px;
+}
+
 .wrapper {
   width: 100%;
   height: 100vh;
@@ -217,7 +221,7 @@ a i.plus {
 
 .container_list {
   width: 100%;
-  margin-top: 90px;
+  margin-top: 75px;
 }
 
 .container_list ul li {
@@ -277,7 +281,7 @@ a i.plus {
 }
 
 .third_section p {
-  margin-bottom: 30px;
+  margin-bottom: 25px;
 }
 
 .third_section ul li h2 {
