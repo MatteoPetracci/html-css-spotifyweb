@@ -451,6 +451,7 @@ a i.plus {
 }
 
 .bar3 {
+  position: relative;
   height: 3px;
   background-color: grey;
   width: 400px;
@@ -477,6 +478,10 @@ a i.plus {
   height: 3px;
   background-color: white;
   width: 60px;
+}
+
+.flex_item_3 i {
+  color: lightgrey;
 }
 
 
@@ -526,8 +531,30 @@ a i.plus {
   cursor: pointer;
 }
 
-/* sezione after */
+.flex_item_2 .bar4:hover {
+  background-color: lightgreen;
+  cursor: pointer;
+}
 
+.flex_item_3 .bar4:hover {
+  background-color: lightgreen;
+  cursor: pointer;
+}
+
+#font_22:hover {
+  font-size: 23px;
+}
+
+i:hover {
+  cursor: pointer;
+}
+
+.flex_item_3 i:hover {
+  color: white;
+}
+
+
+/* sezione after */
 
 .container_list ul li:active:after {
   content: '';
@@ -539,6 +566,37 @@ a i.plus {
 }
 
 
+.flex_item_2 .bar4::after {
+  content: "";
+  position: absolute;
+  right: 83%;
+  top: -4px;
+  height: 10px;
+  width: 10px;
+  background-color: white;
+  border-radius: 50%;
+  display: none;
+}
+
+.flex_item_2 .bar4:hover::after {
+  display: block;
+}
+
+.flex_item_3 .bar4::after {
+  content: "";
+  position: absolute;
+  right: 33%;
+  top: -4px;
+  height: 10px;
+  width: 10px;
+  background-color: white;
+  border-radius: 50%;
+  display: none;
+}
+
+.flex_item_3 .bar4:hover::after {
+  display: block;
+}
 
 /* sezione active */
 
