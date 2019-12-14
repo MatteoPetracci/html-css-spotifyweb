@@ -421,6 +421,7 @@ a i.plus {
 .flex_item_1 i {
   font-size: 14px;
   padding-right: 15px;
+  color: grey;
 }
 
 /* flex item 2 */
@@ -511,6 +512,17 @@ a i.plus {
 
 .relative:hover .layover_2 {
   display: block;
+  cursor: pointer;
+}
+
+.prova2 p:hover {
+  text-decoration: underline;
+  color: white;
+  cursor: pointer;
+}
+
+.flex_item_1 li i:hover {
+  color: white;
   cursor: pointer;
 }
 
