@@ -71,32 +71,62 @@
           <div>
             <ul class="container_first_song list_inline margin_top_20 font_9">
               <li>
-                <img src="img/metal_lifting.jpg" alt="">
+                <div class="relative">
+                  <img src="img/metal_lifting.jpg" alt="">
+                  <div class="layover">
+                    <i class="far fa-play-circle play_icon"></i>
+                  </div>
+                </div>
                 <h2>Heavy Metal</h2>
                 <p>Subtitle</p>
               </li>
               <li>
+                <div class="relative">
                 <img class="stranger" src="img/stranger.jpeg" alt="">
+                <div class="layover">
+                  <i class="far fa-play-circle play_icon"></i>
+                </div>
+                </div>
                 <h2>Stranger Things, Vol. 1 (a Netflix Original Series Soundtrack)</h2>
                 <p>Kyle Dixon & Michael Stein</p>
               </li>
               <li>
+                <div class="relative">
                 <img src="img/aquietplace.jpeg" alt="">
+                <div class="layover">
+                  <i class="far fa-play-circle play_icon"></i>
+                </div>
+                </div
                 <h2>A quiet place</h2>
                 <p>Subtitle</p>
               </li>
               <li>
+                <div class="relative">
                 <img src="img/split.jpeg" alt="">
+                <div class="layover">
+                  <i class="far fa-play-circle play_icon"></i>
+                </div>
+                </div
                 <h2>Split</h2>
                 <p>Subtitle</p>
               </li>
               <li>
+                <div class="relative">
                 <img src="img/cure.jpeg" alt="">
+                <div class="layover">
+                  <i class="far fa-play-circle play_icon"></i>
+                </div>
+                </div
                 <h2>A cure for welness</h2>
                 <p>Subtitle</p>
               </li>
               <li>
+                <div class="relative">
                 <img src="img/sinister.jpeg" alt="">
+                <div class="layover">
+                  <i class="far fa-play-circle play_icon"></i>
+                </div>
+                </div
                 <h2>Sinister</h2>
                 <p>Subtitle</p>
               </li>
@@ -144,26 +174,23 @@
       <!-- footer -->
       <footer class="footer">
         <div class="container_footer">
-          <div class="flex-item_1 ">
-            <ul class="list_style list_inline">
-              <li>
-                <img src="img/sinister.jpeg" alt="">
-              </li>
-              <li>
-                <h3 class="font_12">Sinister</h3>
-                <p class="font_9 color_grey bold">Brano nome</p>
-              </li>
-              <li class="margin_left_20">
-                <i class="far fa-heart"></i>
-              </li>
-              <li>
-                <i class="far fa-folder"></i>
-              </li>
-            </ul>
-
-
+          <div class="flex_item_1 box_footer">
+            <ul class="list_style list_inline text_left">
+            <li class="line_height_5">
+              <img class="vertical margin_left_9" src="img/sinister.jpeg" alt="">
+            </li>
+            <li>
+              <div class="prova2">
+                <span class="font_12 vertical bold">Sinister</span>
+                <p class="font_9 color_grey bold vertical">Brano nome</p>
+              </div>
+            </li>
+            <li class="margin_left_90">
+              <i class="far fa-heart"></i>
+              <i class="far fa-folder"></i>
+            </li>
           </div>
-          <div class="flex-item_2">
+          <div class="flex_item_2 box_footer">
             <ul class="list_style list_inline">
               <li>
                 <a href="#"><i class="fas fa-random"></i></a>
@@ -175,7 +202,7 @@
               </li>
               <li>
                 <a href="#">
-                  <i class="far fa-play-circle"></i>
+                  <i id="font_22" class="far fa-play-circle"></i>
                 </a>
               </li>
               <li>
@@ -189,14 +216,17 @@
                 </a>
               </li>
             </ul>
-            <ul class="list_style list_inline">
-              <li>0:25</li>
-              <li><div class="bar"></div></li>
-              <li>4:35</li>
-            </ul>
+            <div class="container_bar">
+              <div class="font_10 margin_left_20">0:25</div>
+              <div class="bar3">
+                <div class="bar4"></div>
+              </div>
+              <div class="font_10 margin_right_20">4:35</div>
+            </div>
+
           </div>
-          <div class="flex-item_3">
-            <ul class="list_style list_inline">
+          <div class="flex_item_3 box_footer">
+            <ul class="list_style list_inline text_right line_height_5">
               <li>
                 <i class="fas fa-bars"></i>
               </li>
@@ -206,11 +236,14 @@
               <li>
                 <i class="fas fa-volume-up"></i>
               </li>
-              <li><div class="bar_2"></div></li>
+              <li class="vertical">
+                <div class="bar_2">
+                  <div class="bar4"></div>
+                </div>
+              </li>
             </ul>
           </div>
         </div>
-
       </footer>
       <!-- /footer -->
     </div>
@@ -219,3 +252,16 @@
 
   </body>
 </html>
+
+
+
+
+<!-- <ul class="list_style list_inline line_height_bar">
+<li class="font_10"> <span>0:25</span> </li>
+<li>
+  <div class="bar">
+    <div class="bar3"></div>
+  </div>
+</li>
+<li class="font_10 no_wrap"><span>4:35</span></li>
+</ul> -->
