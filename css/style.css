@@ -12,6 +12,12 @@ body {
   background-color: black;
   font-family: 'Montserrat', sans-serif;
   color: white;
+  min-width: 685px;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100vh;
 }
 
 a {
@@ -64,11 +70,6 @@ a {
   font-size: 20px;
 }
 
-.wrapper {
-  width: 100%;
-  height: 100vh;
-  background-color: red;
-}
 
 .text_center {
   text-align: center;
@@ -118,6 +119,10 @@ a {
   margin-left: 90px;
 }
 
+.margin_left_9 {
+  margin-left: 9px;
+}
+
 .radius_50 {
   border-radius: 50%;
 }
@@ -135,9 +140,6 @@ a {
   color: grey;
 }
 
-.margin_left_9 {
-  margin-left: 9px;
-}
 
 /* Flex */
 
@@ -320,6 +322,7 @@ a i.plus {
 
 .container_first_song li h2 {
   margin-top: 8px;
+  width: 100%;
 }
 
 .container_line_song p {
@@ -336,15 +339,8 @@ a i.plus {
   font-size: 50px;
 }
 
-.container_first_song ul li.opacity:hover {
-  display: block;
-}
 
 .container_first_song li img {
-  width: 100%;
-}
-
-.container_first_song li h2 {
   width: 100%;
 }
 
@@ -418,7 +414,7 @@ a i.plus {
   vertical-align: middle;
 }
 
-.prova2 {
+.box_song {
   position: absolute;
   transform: translate(5px, -19px);
   width: 60px;
@@ -512,6 +508,10 @@ a i.plus {
   color: white;
 }
 
+.container_first_song ul li.opacity:hover {
+  display: block;
+}
+
 .container_list ul li:hover a {
   color: white;
 }
@@ -526,7 +526,7 @@ a i.plus {
   cursor: pointer;
 }
 
-.prova2 p:hover {
+.box_song p:hover {
   text-decoration: underline;
   color: white;
   cursor: pointer;
@@ -565,7 +565,7 @@ i:hover {
 
 /* sezione after */
 
-.container_list ul li:active:after {
+.container_list ul li a:focus::after {
   content: '';
   position: absolute;
   border-bottom: 2px solid lightgreen;
@@ -651,6 +651,9 @@ i.logo {
   }
   .main-nav hr {
     display: none;
+  }
+  .active_1 i {
+    color: white;
   }
   i.logo {
     display: block;
