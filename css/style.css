@@ -458,10 +458,11 @@ a i.plus {
 
 .bar3 {
   position: relative;
-  height: 3px;
+  height: 4px;
   background-color: grey;
   width: 400px;
   margin: 0 20px;
+  border-radius: 10px;
 }
 
 /* flex item 3 */
@@ -480,9 +481,10 @@ a i.plus {
 }
 
 .bar4 {
-  height: 3px;
+  height: 4px;
   background-color: white;
   width: 60px;
+  border-radius: 10px;
 }
 
 .flex_item_3 i {
