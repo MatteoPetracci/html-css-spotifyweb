@@ -140,6 +140,9 @@ a {
   color: grey;
 }
 
+i.logo {
+  display: none;
+}
 
 /* Flex */
 
@@ -606,16 +609,13 @@ i:hover {
   display: block;
 }
 
-/* sezione active */
+/* sezione focus */
 
-.main-nav-header ul li:active,
-.main-nav-header ul li:focus {
-  border-left: 2px solid lightgreen;
+.main-nav-header ul li a:focus {
+  border-left:2px solid lightgreen;
+  padding-top: 5px;
 }
 
-i.logo {
-  display: none;
-}
 
 /* media query */
 
