@@ -194,7 +194,7 @@ a {
   padding-left: 3px;
 }
 
-a i.plus {
+.plus {
   font-size: 35px;
   vertical-align: middle;
   padding-right: 10px;
@@ -638,9 +638,9 @@ i:hover {
   .main-nav img {
     display: none;
   }
-  .main-nav-header ul li.active_1 a
-  .main-nav-header ul li.active_2 a
-  .main-nav-header ul li.active_3 a  {
+  .active_1 a
+  .active_2 a
+  .active_3 a  {
     display: block;
   }
   .main-nav-main ul,
