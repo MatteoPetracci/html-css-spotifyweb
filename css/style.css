@@ -140,9 +140,14 @@ a {
   color: grey;
 }
 
-i.logo {
-  display: none;
+.line_height_5 {
+  line-height: 5;
 }
+
+.vertical {
+  vertical-align: middle;
+}
+
 
 /* Flex */
 
@@ -153,7 +158,7 @@ i.logo {
   overflow: hidden;
 }
 
-/* main nav */
+/* main nav header*/
 
 .main-nav {
   display: flex;
@@ -195,6 +200,12 @@ a i.plus {
   padding-right: 10px;
 }
 
+i.logo {
+  display: none;
+}
+
+/* main nav main */
+
 .main-nav-main {
   min-height: 150px;
   overflow-y: auto;
@@ -225,7 +236,7 @@ a i.plus {
   color: white;
 }
 
-/* footer nav  */
+/* footer main nav  */
 
 .main-nav-footer {
   padding: 15px;
@@ -279,6 +290,8 @@ a i.plus {
   margin-right: 30px;
   font-weight: 700;
 }
+
+/* 1 row */
 
 .main-content {
   width: calc(100% - 210px);
@@ -367,7 +380,7 @@ a i.plus {
   text-transform: capitalize;
 }
 
-/* secondo container */
+/* 2 row */
 
 .container_second_song {
   justify-content: flex-start;
@@ -409,13 +422,6 @@ a i.plus {
   position: relative;
 }
 
-.line_height_5 {
-  line-height: 5;
-}
-
-.vertical {
-  vertical-align: middle;
-}
 
 .box_song {
   position: absolute;
